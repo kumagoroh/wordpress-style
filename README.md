@@ -1,6 +1,6 @@
 # **wordpress-style**
 Wordpress original template
-Original template used on kumagoroh-cook.com
+Original template used on [kumagoroh-cook.com](https://kumagoroh-cook.com)
 
 ## :bear:Contents
 
