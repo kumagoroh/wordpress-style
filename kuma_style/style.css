@@ -481,7 +481,7 @@ h5 {
 	font-size: 0.8125rem;
 	font-weight: 800;
 	letter-spacing: 0.15em;
-	text-transform: uppercase;
+/*text-transform: uppercase; */
 }
 
 h6 {
@@ -948,9 +948,11 @@ textarea {
 	color: #666;
 	background: #fff;
 	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-	border: 1px solid #bbb;
+/*	border: 1px solid #bbb; */
+	border: 2px solid #bbb;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;
+/*	border-radius: 3px; */
+	border-radius: 7px;
 	display: block;
 	padding: 0.7em;
 	width: 100%;
@@ -1323,7 +1325,6 @@ a:hover .nav-title,
 --------------------------------------------------------------*/
 
 .navigation-top {
-	background: #fff;
 	border-bottom: 1px solid #eee;
 	border-top: 1px solid #eee;
 	font-size: 16px;
@@ -1595,7 +1596,7 @@ body {
 	letter-spacing: 0.08em;
 	margin: 0;
 	padding: 0;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .site-title,
@@ -1866,7 +1867,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .kumastyle-panel .recent-posts .entry-header .edit-link {
 	color: #222;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 20px;
 	font-size: 0.6875rem;
 	margin-left: 1em;
 }
@@ -1912,10 +1913,12 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 body.page:not(.kumastyle-front-page) .entry-title {
 	color: #222;
 	font-size: 14px;
-	font-size: 0.875rem;
+/*	font-size: 0.875rem; */
+	font-size: 1.5rem;
 	font-weight: 800;
 	letter-spacing: 0.14em;
-	text-transform: uppercase;
+	text-transform: none;
+/*text-transform: uppercase;　全ての文字を大文字に変換*/
 }
 
 .entry-header .entry-title {
@@ -1939,7 +1942,7 @@ body.page:not(.kumastyle-front-page) .entry-title {
 	font-weight: 800;
 	letter-spacing: 0.1818em;
 	padding-bottom: 0.25em;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .entry-meta a {
@@ -2149,7 +2152,7 @@ body:not(.kumastyle-front-page) .entry-header {
 	letter-spacing: 0.1818em;
 	padding-left: 2.5em;
 	position: relative;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .entry-footer .cat-links + .tags-links {
@@ -2246,7 +2249,7 @@ body:not(.kumastyle-front-page) .entry-header {
 	font-size: 0.6875rem;
 	letter-spacing: 0.1818em;
 	margin-bottom: 1em;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .nav-title {
@@ -2454,7 +2457,7 @@ body:not(.kumastyle-front-page) .entry-header {
 	font-size: 0.625rem;
 	font-weight: 800;
 	letter-spacing: 0.1818em;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .comment-metadata a {
@@ -2541,7 +2544,7 @@ h2.widget-title {
 	font-weight: 800;
 	letter-spacing: 0.1818em;
 	margin-bottom: 1.5em;
-	text-transform: uppercase;
+/* text-transform: uppercase; */
 }
 
 .widget-title a {
@@ -2700,7 +2703,7 @@ h2.widget-title {
 	font-weight: 800;
 	letter-spacing: 0.18em;
 	line-height: 1.5;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .widget_rss .rss-date {
@@ -3027,7 +3030,7 @@ p > object:only-child {
 	font-size: 0.625rem;
 	font-weight: 800;
 	letter-spacing: 0.1818em;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 }
 
 .site-content .wp-playlist-item {
@@ -3153,7 +3156,7 @@ p > object:only-child {
 	font-weight: 700;
 	letter-spacing: 1px;
 	padding: 3em;
-	text-transform: uppercase;
+/*	text-transform: uppercase; */
 	text-align: center;
 }
 
@@ -3273,8 +3276,9 @@ p > object:only-child {
 	h2,
 	.home.blog .entry-title,
 	.page .panel-content .recent-posts .entry-title {
-		font-size: 26px;
-		font-size: 1.625rem;
+		font-size: 30px;
+	/*	font-size: 1.625rem; */
+		font-size: 1.18rem;
 	}
 
 	h3 {
@@ -3393,9 +3397,12 @@ p > object:only-child {
 	input,
 	select,
 	textarea {
-		font-size: 16px;
-		font-size: 1rem;
-		line-height: 1.5;
+	/*	font-size: 16px; */
+		font-size: 13px;
+    /*	font-size: 1rem; */
+		font-size: 0.9rem;
+	/*	line-height: 1.5; */
+		line-height: 1.2;
 	}
 
 	.entry-content blockquote.alignleft,
@@ -3408,19 +3415,23 @@ p > object:only-child {
 
 	.wrap {
 		max-width: 1000px;
-		padding-left: 3em;
-		padding-right: 3em;
+	/*	padding-left: 3em; */
+		padding-left: 2em;
+	/*	padding-right: 3em; */
+		padding-right: 2em;
 	}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
-		width: 58%;
+	/*	width: 58%; */
+		width: 60%;
 	}
 
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 36%;
+	/*	width: 36%; */
+		width: 30%;
 	}
 
 	.error404 #primary {
@@ -3504,15 +3515,16 @@ p > object:only-child {
 
 	/* Navigation */
 
-	.navigation-top {
+	.navigation-top {		
 		bottom: 0;
 		font-size: 14px;
-		font-size: 0.875rem;
+		font-size: 0.875rem;	
 		left: 0;
 		position: absolute;
 		right: 0;
 		width: 100%;
 		z-index: 3;
+		opacity: 0.7;
 	}
 
 	.navigation-top .wrap {
@@ -3581,7 +3593,6 @@ p > object:only-child {
 	}
 
 	.main-navigation ul ul {
-		background: #fff;
 		border: 1px solid #bbb;
 		left: -999em;
 		padding: 0;
@@ -3781,8 +3792,10 @@ p > object:only-child {
 	}
 
 	.panel-content .wrap {
-		padding-bottom: 4.5em;
-		padding-top: 6em;
+	/*	padding-bottom: 4.5em; */
+		padding-bottom: 4em;
+	/*	padding-top: 6em; */
+		padding-top: 4em;
 	}
 
 	.panel-image {
@@ -3838,13 +3851,15 @@ p > object:only-child {
 
 	.page .panel-content .recent-posts .entry-title {
 		font-size: 26px;
-		font-size: 1.625rem;
+		font-size: 1.18rem;
+	/*	font-size: 1.625rem; */
 	}
 
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+	/*	padding: 5.5em 0 0; */
+		padding: 2em 0 0;
 	}
 
 	.single-post .entry-title,
@@ -3906,6 +3921,10 @@ p > object:only-child {
 	.archive .site-main > article,
 	.search .site-main > article {
 		padding-bottom: 4em;
+		border-style: double; /*追加*/
+		background-color: #444; /*追加*/
+		margin: 0.5em; /*追加*/
+		padding: 1.5em 1em; /*追加*/
 	}
 
 	.navigation.pagination {
@@ -4002,7 +4021,8 @@ p > object:only-child {
 	.page.page-one-column .entry-header,
 	.kumastyle-front-page.page-one-column .entry-header,
 	.archive.page-one-column:not(.has-sidebar) .page-header {
-		margin-bottom: 4em;
+		margin-bottom: 2em;
+	/*	margin-bottom: 4em; */
 	}
 
 	.page:not(.home) #content {
@@ -4061,8 +4081,10 @@ p > object:only-child {
 
 	h2.widget-title {
 		font-size: 11px;
-		font-size: 0.6875rem;
-		margin-bottom: 2em;
+	/*	font-size: 0.6875rem; */
+		font-size: 1.2rem;
+	/*	margin-bottom: 2em;  */
+		margin-bottom: 0.5em;
 	}
 
 	/* Footer */
@@ -4070,7 +4092,8 @@ p > object:only-child {
 	.site-footer {
 		font-size: 14px;
 		font-size: 0.875rem;
-		line-height: 1.6;
+	/*	line-height: 1.6; */
+		line-height: 1.2;
 		margin-top: 3em;
 	}
 
@@ -4369,4 +4392,3 @@ p > object:only-child {
 	.site-footer {
 		padding: 0;
 	}
-}
